@@ -10,22 +10,22 @@
     "id": 2,
     "name": "Morgan Silver Dollar",
     "year": "1921",
-    "headImage": "https://images.unsplash.com/photo-1610375461246-83df859d849d?w=300&h=300&fit=crop&crop=center",
-    "tailImage": "https://images.unsplash.com/photo-1610375460261-83df859d849d?w=300&h=300&fit=crop&crop=center"
+    "headImage": "coins/02NP2066-H.webp",
+    "tailImage": "coins/02NP2066-T.webp"
   },
   {
     "id": 3,
     "name": "Peace Dollar",
     "year": "1922",
-    "headImage": "https://images.unsplash.com/photo-1605792657660-596af9009e82?w=300&h=300&fit=crop&crop=center",
-    "tailImage": "https://images.unsplash.com/photo-1605792657660-596af9009e82?w=300&h=300&fit=crop&crop=center"
+    "headImage": "coins/50P1984IG-H.webp",
+    "tailImage": "coins/50P1984IG-T.webp"
   },
   {
     "id": 4,
     "name": "Walking Liberty Half",
     "year": "1943",
-    "headImage": "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=300&h=300&fit=crop&crop=center",
-    "tailImage": "https://images.unsplash.com/photo-1567427018141-95ea69ba5c5d?w=300&h=300&fit=crop&crop=center"
+    "headImage": "coins/011990ICDS-H.webp",
+    "tailImage": "coins/011990ICDS-T.webp"
   },
   {
     "id": 5,
