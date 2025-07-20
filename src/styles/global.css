@@ -7,10 +7,13 @@
 
 body {
   background: #ffffff;
-  font-family: 'Playfair Display', 'Georgia', serif;
+  font-family: "gelica", sans-serif;
+  font-weight: 200;
+  font-style: normal;
   min-height: 100vh;
   color: #333;
   line-height: 1.6;
+  padding: 30px;
 }
 
 /* Main Container */

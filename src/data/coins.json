@@ -26,61 +26,195 @@
     "year": "1943",
     "headImage": "coins/011990ICDS-H.webp",
     "tailImage": "coins/011990ICDS-T.webp"
-  },
-  {
+  },  {
     "id": 5,
-    "name": "Mercury Dime",
-    "year": "1945",
-    "headImage": "https://images.unsplash.com/photo-1610375461246-83df859d849d?w=300&h=300&fit=crop&crop=center",
-    "tailImage": "https://images.unsplash.com/photo-1610375460261-83df859d849d?w=300&h=300&fit=crop&crop=center"
+    "name": "Liberty Head Dollar",
+    "year": "1893",
+    "headImage": "coins/011989JN-H.webp",
+    "tailImage": "coins/011989JN-T.webp"
   },
   {
     "id": 6,
-    "name": "Buffalo Nickel",
-    "year": "1937",
-    "headImage": "https://images.unsplash.com/photo-1605792657660-596af9009e82?w=300&h=300&fit=crop&crop=center",
-    "tailImage": "https://images.unsplash.com/photo-1605792657660-596af9009e82?w=300&h=300&fit=crop&crop=center"
+    "name": "Morgan Silver Dollar",
+    "year": "1921",
+    "headImage": "coins/02NP2066-H.webp",
+    "tailImage": "coins/02NP2066-T.webp"
   },
   {
     "id": 7,
-    "name": "Indian Head Penny",
-    "year": "1907",
-    "headImage": "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=300&h=300&fit=crop&crop=center",
-    "tailImage": "https://images.unsplash.com/photo-1567427018141-95ea69ba5c5d?w=300&h=300&fit=crop&crop=center"
+    "name": "Peace Dollar",
+    "year": "1922",
+    "headImage": "coins/50P1984IG-H.webp",
+    "tailImage": "coins/50P1984IG-T.webp"
   },
   {
     "id": 8,
-    "name": "Barber Quarter",
-    "year": "1915",
-    "headImage": "https://images.unsplash.com/photo-1610375461246-83df859d849d?w=300&h=300&fit=crop&crop=center",
-    "tailImage": "https://images.unsplash.com/photo-1610375460261-83df859d849d?w=300&h=300&fit=crop&crop=center"
-  },
-  {
+    "name": "Walking Liberty Half",
+    "year": "1943",
+    "headImage": "coins/011990ICDS-H.webp",
+    "tailImage": "coins/011990ICDS-T.webp"
+  },  {
     "id": 9,
-    "name": "Standing Liberty Quarter",
-    "year": "1925",
-    "headImage": "https://images.unsplash.com/photo-1605792657660-596af9009e82?w=300&h=300&fit=crop&crop=center",
-    "tailImage": "https://images.unsplash.com/photo-1605792657660-596af9009e82?w=300&h=300&fit=crop&crop=center"
+    "name": "Liberty Head Dollar",
+    "year": "1893",
+    "headImage": "coins/011989JN-H.webp",
+    "tailImage": "coins/011989JN-T.webp"
   },
   {
     "id": 10,
-    "name": "Wheat Penny",
-    "year": "1943",
-    "headImage": "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=300&h=300&fit=crop&crop=center",
-    "tailImage": "https://images.unsplash.com/photo-1567427018141-95ea69ba5c5d?w=300&h=300&fit=crop&crop=center"
+    "name": "Morgan Silver Dollar",
+    "year": "1921",
+    "headImage": "coins/02NP2066-H.webp",
+    "tailImage": "coins/02NP2066-T.webp"
   },
   {
     "id": 11,
-    "name": "Franklin Half Dollar",
-    "year": "1962",
-    "headImage": "https://images.unsplash.com/photo-1610375461246-83df859d849d?w=300&h=300&fit=crop&crop=center",
-    "tailImage": "https://images.unsplash.com/photo-1610375460261-83df859d849d?w=300&h=300&fit=crop&crop=center"
+    "name": "Peace Dollar",
+    "year": "1922",
+    "headImage": "coins/50P1984IG-H.webp",
+    "tailImage": "coins/50P1984IG-T.webp"
   },
   {
     "id": 12,
-    "name": "Kennedy Half Dollar",
-    "year": "1964",
-    "headImage": "https://images.unsplash.com/photo-1605792657660-596af9009e82?w=300&h=300&fit=crop&crop=center",
-    "tailImage": "https://images.unsplash.com/photo-1605792657660-596af9009e82?w=300&h=300&fit=crop&crop=center"
+    "name": "Walking Liberty Half",
+    "year": "1943",
+    "headImage": "coins/011990ICDS-H.webp",
+    "tailImage": "coins/011990ICDS-T.webp"
+  },  {
+    "id": 13,
+    "name": "Liberty Head Dollar",
+    "year": "1893",
+    "headImage": "coins/011989JN-H.webp",
+    "tailImage": "coins/011989JN-T.webp"
+  },
+  {
+    "id": 14,
+    "name": "Morgan Silver Dollar",
+    "year": "1921",
+    "headImage": "coins/02NP2066-H.webp",
+    "tailImage": "coins/02NP2066-T.webp"
+  },
+  {
+    "id": 15,
+    "name": "Peace Dollar",
+    "year": "1922",
+    "headImage": "coins/50P1984IG-H.webp",
+    "tailImage": "coins/50P1984IG-T.webp"
+  },
+  {
+    "id": 16,
+    "name": "Walking Liberty Half",
+    "year": "1943",
+    "headImage": "coins/011990ICDS-H.webp",
+    "tailImage": "coins/011990ICDS-T.webp"
+  },
+  {
+    "id": 17,
+    "name": "Liberty Head Dollar",
+    "year": "1893",
+    "headImage": "coins/011989JN-H.webp",
+    "tailImage": "coins/011989JN-T.webp"
+  },
+  {
+    "id": 18,
+    "name": "Morgan Silver Dollar",
+    "year": "1921",
+    "headImage": "coins/02NP2066-H.webp",
+    "tailImage": "coins/02NP2066-T.webp"
+  },
+  {
+    "id": 19,
+    "name": "Peace Dollar",
+    "year": "1922",
+    "headImage": "coins/50P1984IG-H.webp",
+    "tailImage": "coins/50P1984IG-T.webp"
+  },
+  {
+    "id": 20,
+    "name": "Walking Liberty Half",
+    "year": "1943",
+    "headImage": "coins/011990ICDS-H.webp",
+    "tailImage": "coins/011990ICDS-T.webp"
+  },  {
+    "id": 21,
+    "name": "Liberty Head Dollar",
+    "year": "1893",
+    "headImage": "coins/011989JN-H.webp",
+    "tailImage": "coins/011989JN-T.webp"
+  },
+  {
+    "id": 22,
+    "name": "Morgan Silver Dollar",
+    "year": "1921",
+    "headImage": "coins/02NP2066-H.webp",
+    "tailImage": "coins/02NP2066-T.webp"
+  },
+  {
+    "id": 23,
+    "name": "Peace Dollar",
+    "year": "1922",
+    "headImage": "coins/50P1984IG-H.webp",
+    "tailImage": "coins/50P1984IG-T.webp"
+  },
+  {
+    "id": 24,
+    "name": "Walking Liberty Half",
+    "year": "1943",
+    "headImage": "coins/011990ICDS-H.webp",
+    "tailImage": "coins/011990ICDS-T.webp"
+  },  {
+    "id": 25,
+    "name": "Liberty Head Dollar",
+    "year": "1893",
+    "headImage": "coins/011989JN-H.webp",
+    "tailImage": "coins/011989JN-T.webp"
+  },
+  {
+    "id": 26,
+    "name": "Morgan Silver Dollar",
+    "year": "1921",
+    "headImage": "coins/02NP2066-H.webp",
+    "tailImage": "coins/02NP2066-T.webp"
+  },
+  {
+    "id": 27,
+    "name": "Peace Dollar",
+    "year": "1922",
+    "headImage": "coins/50P1984IG-H.webp",
+    "tailImage": "coins/50P1984IG-T.webp"
+  },
+  {
+    "id": 28,
+    "name": "Walking Liberty Half",
+    "year": "1943",
+    "headImage": "coins/011990ICDS-H.webp",
+    "tailImage": "coins/011990ICDS-T.webp"
+  },  {
+    "id": 29,
+    "name": "Liberty Head Dollar",
+    "year": "1893",
+    "headImage": "coins/011989JN-H.webp",
+    "tailImage": "coins/011989JN-T.webp"
+  },
+  {
+    "id": 30,
+    "name": "Morgan Silver Dollar",
+    "year": "1921",
+    "headImage": "coins/02NP2066-H.webp",
+    "tailImage": "coins/02NP2066-T.webp"
+  },
+  {
+    "id": 31,
+    "name": "Peace Dollar",
+    "year": "1922",
+    "headImage": "coins/50P1984IG-H.webp",
+    "tailImage": "coins/50P1984IG-T.webp"
+  },
+  {
+    "id": 32,
+    "name": "Walking Liberty Half",
+    "year": "1943",
+    "headImage": "coins/011990ICDS-H.webp",
+    "tailImage": "coins/011990ICDS-T.webp"
   }
 ]

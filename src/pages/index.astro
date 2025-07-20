@@ -16,12 +16,14 @@ import coinData from '../data/coins.json';
 		<link rel="stylesheet" href="/src/styles/global.css" />
 		<link rel="stylesheet" href="/src/styles/coin.css" />
 		<link rel="stylesheet" href="/src/styles/custom.css" />
+		<link rel="stylesheet" href="https://use.typekit.net/iif5gol.css">
+		
 	</head>
 	<body>
 		<div class="museum-container" id="museum-main">
 			<header class="gallery-header" id="gallery-header">
-				<h1 class="gallery-title" id="main-title">Thiru's Coin Collection</h1>
-				<p class="gallery-subtitle" id="main-subtitle">A Curated Numismatic Exhibition</p>
+				<h1 class="gallery-title" id="main-title">Thiru's Mint</h1>
+				<p class="gallery-subtitle" id="main-subtitle">There are {coinData.length} coins in this collection</p>
 			</header>
 			
 			<main class="gallery" id="coin-gallery">
@@ -37,9 +39,7 @@ import coinData from '../data/coins.json';
 			</main>
 			
 			<footer class="gallery-footer" id="gallery-footer">
-				<div class="collection-stats" id="collection-stats">
-					<span class="coin-count" id="coin-count">{coinData.length} coins</span>
-				</div>
+				
 			</footer>
 		</div>
 	</body>
