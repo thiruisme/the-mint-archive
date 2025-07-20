@@ -1,0 +1,127 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  min-height: 100vh;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Main Container */
+.museum-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  min-height: 100vh;
+}
+
+/* Gallery Header */
+.gallery-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+}
+
+.gallery-title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 400;
+  color: #333;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.gallery-subtitle {
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  color: #666;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+/* Gallery grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2.5rem;
+  padding: 2rem 0;
+  justify-items: center;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .museum-container {
+    padding: 1.5rem 1rem;
+  }
+  
+  .gallery-header {
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+  }
+  
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .museum-container {
+    padding: 1rem 0.75rem;
+  }
+  
+  .gallery-header {
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+  }
+  
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 0.8rem;
+  }
+}
+
+/* Loading state */
+.gallery-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  color: #999;
+  font-style: italic;
+}
+
+/* Museum lighting effect */
+.museum-container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}

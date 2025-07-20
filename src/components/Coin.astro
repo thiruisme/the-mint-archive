@@ -1,0 +1,55 @@
+---
+export interface Props {
+  id: number;
+  headImage: string;
+  tailImage: string;
+  name: string;
+  year: string;
+}
+
+const { id, headImage, tailImage, name, year } = Astro.props;
+---
+
+<div class="coin-container" data-coin-id={id} id={`coin-${id}`}>
+  <div class="coin" id={`coin-flip-${id}`}>
+    <div class="coin-face coin-head" id={`coin-head-${id}`}>
+      <img src={headImage} alt={`${name} - Head`} class="coin-image coin-head-image" />
+    </div>
+    <div class="coin-face coin-tail" id={`coin-tail-${id}`}>
+      <img src={tailImage} alt={`${name} - Tail`} class="coin-image coin-tail-image" />
+    </div>
+  </div>
+  <div class="coin-shadow" id={`coin-shadow-${id}`}></div>
+  <div class="coin-info" id={`coin-info-${id}`} data-name={name} data-year={year}></div>
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const coinContainers = document.querySelectorAll('.coin-container');
+    
+    coinContainers.forEach(container => {
+      const coin = container.querySelector('.coin');
+      
+      container.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        if (coin) {
+          coin.classList.toggle('active');
+          container.classList.toggle('active');
+        }
+      });
+      
+      container.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        if (coin) {
+          coin.classList.toggle('active');
+          container.classList.toggle('active');
+        }
+      });
+    });
+  });
+</script>

@@ -1,0 +1,62 @@
+/* 
+   Custom Styling File
+   Add your museum/gallery styling here
+   
+   Available Classes and IDs:
+   
+   Layout Structure:
+   - #museum-main (main container)
+   - #gallery-header (header section)
+   - #main-title (main title)
+   - #main-subtitle (subtitle)
+   - #coin-gallery (main gallery grid)
+   - #gallery-footer (footer section)
+   - #collection-stats (statistics container)
+   - #coin-count (coin count display)
+   
+   Individual Coins:
+   - #coin-{id} (each coin container)
+   - #coin-flip-{id} (the flipping coin element)
+   - #coin-head-{id} (head side)
+   - #coin-tail-{id} (tail side)
+   - #coin-shadow-{id} (shadow element)
+   - #coin-info-{id} (info container with data-name and data-year attributes)
+   
+   Classes:
+   - .coin-container (all coin containers)
+   - .coin (all coin flip elements)
+   - .coin-face (both head and tail faces)
+   - .coin-head (head side specifically)
+   - .coin-tail (tail side specifically)
+   - .coin-image (all coin images)
+   - .coin-head-image (head images specifically)
+   - .coin-tail-image (tail images specifically)
+   - .coin-shadow (shadow elements)
+   - .coin-info (info elements)
+   
+   States:
+   - .active (clicked/active coins)
+   
+   Example museum styling:
+   
+   body {
+     background: linear-gradient(135deg, #8B6642 0%, #A07444 25%, #9C7049 50%, #8B6642 75%, #7A5A3A 100%);
+   }
+   
+   .coin-container {
+     filter: drop-shadow(0 4px 8px rgba(101, 67, 33, 0.3));
+   }
+   
+   .coin-shadow {
+     background: radial-gradient(ellipse, rgba(101, 67, 33, 0.4) 0%, transparent 70%);
+     width: 85%;
+     height: 6px;
+     position: absolute;
+     bottom: -12px;
+     left: 50%;
+     transform: translateX(-50%);
+     border-radius: 50%;
+   }
+*/
+
+/* Add your custom styles below this line */

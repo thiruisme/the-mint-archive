@@ -1,0 +1,100 @@
+/* Coin Component Styles */
+.coin-container {
+  perspective: 1000px;
+  width: 140px;
+  height: 140px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.coin {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border-radius: 50%;
+}
+
+.coin-container:hover .coin:not(.active) {
+  transform: rotateY(180deg);
+}
+
+.coin.active {
+  transform: rotateY(180deg);
+}
+
+.coin-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 
+    0 8px 16px rgba(0, 0, 0, 0.15),
+    0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #f0f0f0;
+}
+
+.coin-face img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.coin-head {
+  transform: rotateY(0deg);
+}
+
+.coin-tail {
+  transform: rotateY(180deg);
+}
+
+.coin-container:active .coin {
+  transform: scale(0.95) rotateY(180deg);
+}
+
+.coin-container.active:active .coin {
+  transform: scale(0.95) rotateY(0deg);
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .coin-container {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .coin-container {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .coin-face {
+    border-width: 1px;
+  }
+}
+
+@media (max-width: 360px) {
+  .coin-container {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  .coin-container:hover .coin:not(.active) {
+    transform: none;
+  }
+}
